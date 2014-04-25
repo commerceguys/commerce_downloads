@@ -4,4 +4,4 @@
  * Code for the commerce_downloads Product Display feature.
  */
 
-include_once 'commerce_downloads_display.features.inc';
+include_once 'commerce_downloads_product_display.features.inc';
