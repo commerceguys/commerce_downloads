@@ -55,14 +55,11 @@ dependencies[] = commerce_product_reference
 
 ; Install contrib.
 dependencies[] = admin_views
-dependencies[] = commerce_billy
 dependencies[] = commerce_backoffice
 dependencies[] = commerce_backoffice_order
 dependencies[] = commerce_backoffice_content
 dependencies[] = commerce_backoffice_product
 dependencies[] = commerce_cardonfile
-dependencies[] = commerce_dunning
-dependencies[] = commerce_license_billing
 dependencies[] = date
 dependencies[] = entityreference
 dependencies[] = email
