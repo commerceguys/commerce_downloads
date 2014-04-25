@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * commerce_downloads_display.features.field_instance.inc
+ * commerce_downloads_product_display.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function commerce_downloads_display_field_default_field_instances() {
+function commerce_downloads_product_display_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-commerce_downloads-body'
@@ -63,15 +63,9 @@ function commerce_downloads_display_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'commerce_cart',
-        'settings' => array(
-          'combine' => 1,
-          'default_quantity' => 1,
-          'line_item_type' => 'commerce_downloads',
-          'show_quantity' => 0,
-          'show_single_product_attributes' => 0,
-        ),
-        'type' => 'commerce_cart_add_to_cart_form',
+        'module' => 'commerce_product_reference',
+        'settings' => array(),
+        'type' => 'commerce_product_reference_title_link',
         'weight' => 1,
       ),
       'teaser' => array(
@@ -84,23 +78,19 @@ function commerce_downloads_display_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_product',
     'label' => 'Product',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'field_injection' => 1,
       'referenceable_types' => array(
-        'commerce_downloads' => 'commerce_downloads',
         'product' => 0,
       ),
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'inline_entity_form',
-      'settings' => array(
-        'fields' => array(),
-        'type_settings' => array(),
-      ),
-      'type' => 'inline_entity_form_single',
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
       'weight' => 32,
     ),
   );
