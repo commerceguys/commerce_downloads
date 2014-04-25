@@ -63,9 +63,15 @@ function commerce_downloads_product_display_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'commerce_product_reference',
-        'settings' => array(),
-        'type' => 'commerce_product_reference_title_link',
+        'module' => 'commerce_cart',
+        'settings' => array(
+          'combine' => 1,
+          'default_quantity' => 1,
+          'line_item_type' => 'commerce_downloads',
+          'show_quantity' => 0,
+          'show_single_product_attributes' => 0,
+        ),
+        'type' => 'commerce_cart_add_to_cart_form',
         'weight' => 1,
       ),
       'teaser' => array(
@@ -82,15 +88,27 @@ function commerce_downloads_product_display_field_default_field_instances() {
     'settings' => array(
       'field_injection' => 1,
       'referenceable_types' => array(
+        'commerce_downloads' => 'commerce_downloads',
         'product' => 0,
       ),
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
+      'module' => 'inline_entity_form',
+      'settings' => array(
+        'fields' => array(),
+        'type_settings' => array(
+          'allow_existing' => 0,
+          'autogenerate_title' => 0,
+          'delete_references' => 0,
+          'label_plural' => 'products',
+          'label_singular' => 'product',
+          'match_operator' => 'CONTAINS',
+          'override_labels' => 0,
+        ),
+      ),
+      'type' => 'inline_entity_form',
       'weight' => 32,
     ),
   );

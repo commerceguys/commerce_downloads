@@ -21,7 +21,7 @@ function commerce_downloads_product_display_node_info() {
     'commerce_downloads' => array(
       'name' => t('Commerce Downloads'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Product Display Node for File Downloads'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
