@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * commerce_downloads_product.module.
+ *
+ * Provides a product type for commerce_downloads licences
+ */
+
+/**
+ * Imprements hook_commerce_product_info().
+ */
+function commerce_downloads_product_commerce_product_type_info() {
+  $product_types = array();
+
+  $product_types['commerce_downloads'] = array(
+    'type' => 'commerce_downloads',
+    'name' => t('File Download'),
+    'description' => t('A license product for selling file downloads.'),
+  );
+
+  return $product_types;
+}

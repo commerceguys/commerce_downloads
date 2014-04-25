@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file odemand_product.install
+ *   Install functions for commerce_downloads Product
+ */
+
+/**
+ * Impliments hook_enable().
+ */
+function commerce_downloads_product_enable() {
+ $commerce_license_product_types = variable_get('commerce_license_product_types');
+ $commerce_license_product_types['commerce_downloads'] = 'commerce_downloads';
+ variable_set('commerce_license_product_types', $commerce_license_product_types);
+ 
+ $commerce_file_product_types = variable_get('commerce_file_product_types');
+ $commerce_file_product_types['commerce_downloads'] = 'commerce_downloads';
+ variable_set('commerce_file_product_types', $commerce_file_product_types);
+ 
+ $commerce_license_line_item_types = variable_get('commerce_license_line_item_types');
+ $commerce_license_line_item_types['commerce_downloads'] = 'commerce_downloads';
+ variable_set('commerce_license_line_item_types', $commerce_license_line_item_types);
+}
+ 
+/**
+* Impliments hook_disable().
+*/
+function commerce_downloads_product_disable() {
+ $commerce_license_product_types = variable_get('commerce_license_product_types');
+ $commerce_license_product_types['commerce_downloads'] = FALSE;
+ variable_set('commerce_license_product_types', $commerce_license_product_types);
+  
+ $commerce_file_product_types = variable_get('commerce_file_product_types');
+ $commerce_file_product_types['commerce_downloads'] = FALSE;
+ variable_set('commerce_file_product_types', $commerce_file_product_types);
+}
+ 
+ 
+ 

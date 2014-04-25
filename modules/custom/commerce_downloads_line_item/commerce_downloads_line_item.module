@@ -1,0 +1,16 @@
+<?php
+
+function commerce_downloads_line_item_commerce_line_item_type_info() {
+  $line_item_types = array();
+
+  $line_item_types['commerce_downloads'] = array(
+    'type' => 'commerce_downloads',
+    'name' => t('Commerce Downloads Product'),
+    'description' => t('References a product and displays it with the SKU as the label.'),
+    'product' => TRUE,
+    'add_form_submit_value' => t('Add Download'),
+    'base' => 'commerce_product_line_item',
+  );
+
+  return $line_item_types;
+}

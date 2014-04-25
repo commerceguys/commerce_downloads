@@ -1,0 +1,10 @@
+name = Commerce Downloads Product
+description = Product type using Commerce File to sell downloads
+core = 7.x
+
+package = commerce_downloads
+project = commerce_downloads_product
+
+dependencies[] = commerce_license
+dependencies[] = commerce_license_role
+dependencies[] = commerce_license_billing

@@ -1,0 +1,10 @@
+name = Commerce Downloads Line Item
+description = Line Item type for Commerce Downloads
+core = 7.x
+
+package = commerce_downloads
+project = commerce_downloads_line_item
+
+dependencies[] = commerce
+dependencies[] = commerce_line_item
+dependencies[] = commerce_order
