@@ -93,7 +93,7 @@ projects[admin_views][version] = 1.2
 projects[admin_views][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
-projects[views_megarow][version] = 1.2
+projects[views_megarow][version] = 1.3
 projects[views_megarow][subdir] = contrib
 
 ; Commerce contrib
