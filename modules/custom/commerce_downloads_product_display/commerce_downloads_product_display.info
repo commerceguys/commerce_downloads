@@ -16,16 +16,4 @@ features[field_base][] = field_product
 features[field_instance][] = node-commerce_downloads-body
 features[field_instance][] = node-commerce_downloads-field_product
 features[node][] = commerce_downloads
-features[variable][] = comment_anonymous_commerce_downloads
-features[variable][] = comment_default_mode_commerce_downloads
-features[variable][] = comment_default_per_page_commerce_downloads
-features[variable][] = comment_form_location_commerce_downloads
-features[variable][] = comment_commerce_downloads
-features[variable][] = comment_preview_commerce_downloads
-features[variable][] = comment_subject_field_commerce_downloads
-features[variable][] = field_bundle_settings_node__commerce_downloads
-features[variable][] = menu_options_commerce_downloads
-features[variable][] = menu_parent_commerce_downloads
-features[variable][] = node_options_commerce_downloads
-features[variable][] = node_preview_commerce_downloads
-features[variable][] = node_submitted_commerce_downloads
+
