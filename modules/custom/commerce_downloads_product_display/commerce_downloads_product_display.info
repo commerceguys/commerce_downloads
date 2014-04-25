@@ -1,7 +1,7 @@
 name = Commerce Downloads Product Display
 description = Provides a display node for the Commerce Downloads Product
 core = 7.x
-package = commerce_downloads
+package = Commerce Downloads
 dependencies[] = commerce_cart
 dependencies[] = commerce_product_reference
 dependencies[] = ctools

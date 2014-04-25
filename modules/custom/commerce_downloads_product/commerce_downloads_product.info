@@ -2,7 +2,7 @@ name = Commerce Downloads Product
 description = Product type using Commerce File to sell downloads
 core = 7.x
 
-package = commerce_downloads
+package = Commerce Downloads
 project = commerce_downloads_product
 
 dependencies[] = commerce_file
