@@ -5,6 +5,7 @@ api = 2
 ; Commerce and dependencies
 projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
+projects[ctools][patch][] = http://drupal.org/files/issues/ctools-combined_patch_from_n2195211-15_and_n2195471-29--n2195471-47.patch
 projects[entity][version] = 1.3
 projects[entity][subdir] = contrib
 projects[rules][version] = 2.6
