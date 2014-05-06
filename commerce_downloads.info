@@ -85,6 +85,8 @@ dependencies[] = features
 dependencies[] = commerce_features
 
 ; Install commerce_downloads Modules
+dependencies[] = commerce_downloads_line_item
+dependencies[] = commerce_downloads_product
 
 ; System Requirements.
 php_memory_limit = 256M
