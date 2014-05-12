@@ -10,7 +10,6 @@ projects[entity][version] = 1.5
 projects[entity][subdir] = contrib
 projects[rules][version] = 2.7
 projects[rules][subdir] = contrib
-projects[rules][patch][] = http://drupal.org/files/issues/2120421-2-fix-events-inclusion-plana.patch
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
 projects[addressfield][version] = 1.0-beta5
