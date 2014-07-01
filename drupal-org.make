@@ -10,7 +10,7 @@ projects[entity][version] = 1.5
 projects[entity][subdir] = contrib
 projects[rules][version] = 2.7
 projects[rules][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][subdir] = contrib
 projects[addressfield][version] = 1.0-beta5
 projects[addressfield][subdir] = contrib
@@ -101,16 +101,16 @@ projects[views_megarow][subdir] = contrib
 ; Commerce contrib
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.4
-projects[commerce_cardonfile][version] = 2.0-beta3
+projects[commerce_cardonfile][version] = 2.0-beta5
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_checkout_complete_registration][version] = 1.x-dev
 projects[commerce_checkout_complete_registration][subdir] = contrib
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0
 projects[commerce_license][subdir] = contrib
-projects[commerce_license][version] = 1.x-dev
+projects[commerce_license][version] = 1.3
 projects[commerce_file][subdir] = contrib
-projects[commerce_file][version] = 2.x-dev
+projects[commerce_file][version] = 2.0-beta3
 projects[commerce_autosku][version] = 1.1
 projects[commerce_autosku][subdir] = contrib
 
@@ -128,7 +128,7 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
 
 ; Themes
-projects[shiny][version] = 1.4
+projects[shiny][version] = 1.5
 
 ; Libraries
 projects[libraries][version] = 2.2
