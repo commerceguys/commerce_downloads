@@ -20,12 +20,18 @@ projects[commerce][subdir] = contrib
 ; Contrib
 projects[advancedqueue][version] = 1.x-dev
 projects[advancedqueue][subdir] = contrib
+
 projects[amazons3][version] = 1.0
 projects[amazons3][subdir] = contrib
+projects[amazons3][patch][] = http://www.drupal.org/files/issues/amazons3-flush_library_check-2215007-4.patch
 projects[amazons3_cors][version] = 1.x-dev
 projects[amazons3_cors][subdir] = contrib
 projects[awssdk][version] = 5.4
 projects[awssdk][subdir] = contrib
+libraries[awssdk][download][type] = git
+libraries[awssdk][download][url] = https://github.com/amazonwebservices/aws-sdk-for-php.git
+libraries[awssdk][download][tag] = 1.6.2
+
 projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][subdir] = contrib
 projects[countries][version] = 2.x
