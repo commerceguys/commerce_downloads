@@ -20,6 +20,12 @@ projects[commerce][subdir] = contrib
 ; Contrib
 projects[advancedqueue][version] = 1.x-dev
 projects[advancedqueue][subdir] = contrib
+projects[amazons3][version] = 1.0
+projects[amazons3][subdir] = contrib
+projects[amazons3_cors][version] = 1.x-dev
+projects[amazons3_cors][subdir] = contrib
+projects[awssdk][version] = 5.4
+projects[awssdk][subdir] = contrib
 projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][subdir] = contrib
 projects[countries][version] = 2.x
@@ -78,8 +84,6 @@ projects[strongarm][subdir] = contrib
 projects[token][version] = 1.5
 projects[token][subdir] = contrib
 projects[token][patch][] = http://drupal.org/files/token-token_asort_tokens-1712336_0.patch
-projects[storage_api][version] = 1.5
-projects[storage_api][subdir] = contrib
 
 ; Panels contrib
 projects[panels][version] = 3.4
