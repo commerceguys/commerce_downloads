@@ -26,7 +26,6 @@ projects[amazons3][subdir] = contrib
 projects[amazons3][patch][] = http://www.drupal.org/files/issues/amazons3-flush_library_check-2215007-4.patch
 projects[amazons3][patch][] = http://www.drupal.org/files/issues/1277152-90.patch
 projects[amazons3][patch][] = http://www.drupal.org/files/issues/amazons3-commerce_file_compatible-2273973.patch
-projects[amazons3][patch][] = http://www.drupal.org/files/issues/amazons3-1526848-37.patch
 projects[amazons3_cors][version] = 1.x-dev
 projects[amazons3_cors][subdir] = contrib
 projects[awssdk][version] = 5.4
