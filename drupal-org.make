@@ -121,6 +121,8 @@ projects[commerce_file][subdir] = contrib
 projects[commerce_file][version] = 2.0-beta3
 projects[commerce_autosku][version] = 1.1
 projects[commerce_autosku][subdir] = contrib
+projects[commerce_rules_extra][version] = 2.0-beta1
+projects[commerce_rules_extra][subdir] = contrib
 
 ; Bootsrap
 projects[bootstrap][version] = 3.x-dev
