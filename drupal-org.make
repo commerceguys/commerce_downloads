@@ -58,7 +58,7 @@ projects[filefield_paths][version] = 1.x-dev
 projects[filefield_paths][subdir] = contrib
 projects[filefield_sources][version] = 1.9
 projects[filefield_sources][subdir] = contrib
-projects[features][version] = 2.1
+projects[features][version] = 2.2
 projects[features][subdir] = contrib
 projects[features][patch][] = http://drupal.org/files/issues/features-fix-modules-enabled-2143765-1.patch
 projects[features][patch][] = http://drupal.org/files/issues/2134279-1-fix-stale-revert.patch
@@ -103,7 +103,7 @@ projects[admin_views][version] = 1.2
 projects[admin_views][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
-projects[views_megarow][version] = 1.3
+projects[views_megarow][version] = 1.4
 projects[views_megarow][subdir] = contrib
 
 ; Commerce contrib
@@ -138,7 +138,7 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
 
 ; Themes
-projects[shiny][version] = 1.5
+projects[shiny][version] = 1.6
 
 ; Libraries
 projects[libraries][version] = 2.2
